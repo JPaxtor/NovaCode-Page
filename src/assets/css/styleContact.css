@@ -1,0 +1,27 @@
+﻿#sectionPrincipalService {
+    height: 100vh;
+}
+
+.sectionPrincipal {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(/root/Img/background/art-7537962.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .sectionPrincipal h1 {
+        color: #fff;
+        font-size: 60px;
+    }
+
+    .sectionPrincipal p {
+        color: #00B3A4;
+    }
+
+.sectionSecondary {
+    height: 30vh;
+}
+
+#Home-Services {
+    height: auto !important;
+}
