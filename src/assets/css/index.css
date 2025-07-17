@@ -30,11 +30,8 @@ html {
   color: #000;
 }
 
-.navBar span {
-}
-
 .logo_navBar {
-  background: url("/root/Img/Logos/LOGO 1.png");
+  background: url("/src/assets/img/Logos/LOGO 1.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 160px;
@@ -58,8 +55,8 @@ html {
 .col-12 {
   height: 65vh;
   /*background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url(/Img/background/back.jpeg);*/
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
-    url(/root/Img/background/back.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
+    url("/src/assets/img/background/back.jpeg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,8 +203,8 @@ html {
 
 #Home-Message {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
-    url(/root/Img/background/technology-785742.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+    url(/src/assets/img/background/technology-785742.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -437,7 +434,7 @@ html {
 }
 
 .empresa:first-child {
-  background: url(/root/Img/marcas/Amazon_logo.svg.png);
+  background: url(/src/assets/img/marcas/Amazon_logo.svg.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -445,7 +442,7 @@ html {
 }
 
 .empresa:nth-child(2) {
-  background: url(/root/Img/marcas/5ae22ce233b73fa43b1a892e.png);
+  background: url(/src/assets/img/marcas/5ae22ce233b73fa43b1a892e.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -453,7 +450,7 @@ html {
 }
 
 .empresa:nth-child(3) {
-  background: url(/root/Img/marcas/5954bb45deaf2c03413be353.png);
+  background: url(/src/assets/img/marcas/5954bb45deaf2c03413be353.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -461,7 +458,7 @@ html {
 }
 
 .empresa:nth-child(4) {
-  background: url(/root/Img/marcas/584298b4a6515b1e0ad75adb.png);
+  background: url(/src/assets/img/marcas/584298b4a6515b1e0ad75adb.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -469,7 +466,7 @@ html {
 }
 
 .empresa:nth-child(5) {
-  background: url(/root/Img/marcas/Bac.png);
+  background: url(/src/assets/img/marcas/Bac.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -477,7 +474,7 @@ html {
 }
 
 .empresa:nth-child(6) {
-  background: url(/root/Img/marcas/Logo.png);
+  background: url(/src/assets/img/marcas/Logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -485,7 +482,7 @@ html {
 }
 
 .empresa:nth-child(7) {
-  background: url(/root/Img/marcas/Nuevo_Logo_Banrural.png);
+  background: url(/src/assets/img/marcas/Nuevo_Logo_Banrural.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -493,7 +490,7 @@ html {
 }
 
 .empresa:nth-child(8) {
-  background: url(/root/Img/marcas/Adidas.png);
+  background: url(/src/assets/img/marcas/Adidas.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -501,7 +498,7 @@ html {
 }
 
 .empresa:nth-child(9) {
-  background: url(/root/Img/marcas/5ae22ce233b73fa43b1a892e.png);
+  background: url(/src/assets/img/marcas/5ae22ce233b73fa43b1a892e.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -509,7 +506,7 @@ html {
 }
 
 .empresa:nth-child(10) {
-  background: url(/root/Img/marcas/Logo.png);
+  background: url(/src/assets/img/marcas/Logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -517,7 +514,7 @@ html {
 }
 
 .empresa:nth-child(11) {
-  background: url(/root/Img/marcas/paiz-logo-5C3357F736-seeklogo.com.png);
+  background: url(/src/assets/img/marcas/paiz-logo-5C3357F736-seeklogo.com.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
@@ -525,7 +522,7 @@ html {
 }
 
 .empresa:last-child {
-  background: url(/root/Img/marcas/Amazon_logo.svg.png);
+  background: url(/src/assets/img/marcas/Amazon_logo.svg.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
