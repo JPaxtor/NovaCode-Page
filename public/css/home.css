@@ -58,7 +58,6 @@ html {
   /*background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url(/Img/background/back.jpeg);*/
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
     url("/public/img/background/back.jpeg");
-
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(

@@ -1,0 +1,63 @@
+<header>
+  <link rel="stylesheet" href="/public/css/home.css" />
+  <!-- Navbar -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light navBar text-white d-none"
+    id="navBar"
+    style="z-index:5000"
+  >
+    <!-- Container wrapper -->
+    <div class="container">
+      <div
+        class="row"
+        style="width: 100%; margin: 0 !important; padding: 0 !important;"
+      >
+        <!-- Navbar brand -->
+        <a class="navbar-brand col-md-2 m-0" href="Default.aspx">
+          <div class="logo_navBar pb-0"></div>
+        </a>
+        <div
+          id="menu"
+          class="d-flex justify-content-center align-items-center gap-5 col-md-8"
+        >
+          <div class="posItemNavBar">
+            <span class="material-symbols-outlined pe-2">home</span>
+            <p class="m-0 pe-2">
+              <a class="pb-0 nav-link" href="/Home/Index">Inicio</a>
+            </p>
+          </div>
+          <div class="posItemNavBar">
+            <span class="material-symbols-outlined">groups</span>
+            <p class="m-0 pe-2">
+              <a class="pb-0 nav-link" href="/myJsonPage/GetInfoTable"
+                >Nosotros</a
+              >
+            </p>
+          </div>
+          <div class="posItemNavBar">
+            <span class="material-symbols-outlined">construction</span>
+            <p class="m-0 pe-2">
+              <a class="pb-0 nav-link" href="/Services/Index">Servicios</a>
+            </p>
+          </div>
+          <div class="posItemNavBar">
+            <span class="material-symbols-outlined">work</span>
+            <p class="m-0 pe-2"><a class="pb-0 nav-link">Portafolio</a></p>
+          </div>
+        </div>
+        <!-- Collapsible wrapper -->
+        <div
+          class="col-md-2 d-flex justify-content-end align-items-center"
+          id="contBtnContactNav"
+        >
+          <button type="button" class="btn btn-warning" id="btnContactLayout"
+            >Contáctanos</button
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  <script src="/src/assets//javascript/navBar.js"></script>
+</header>

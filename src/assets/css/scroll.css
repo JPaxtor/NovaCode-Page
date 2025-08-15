@@ -1,0 +1,162 @@
+.hero-section {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 10000;
+}
+
+.scroll-indicator {
+  width: 2px;
+  height: 60px;
+  background: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.scroll-indicator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  animation: scrollDown 2s ease-in-out infinite;
+}
+
+.scroll-indicator::after {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 12px;
+  top: 60px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.content-section {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.content-section p {
+  max-width: 800px;
+  line-height: 1.8;
+  color: #fff;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.another-section {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff9a56, #ff6b95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Animaciones */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes scrollDown {
+  0% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(40px);
+    opacity: 0;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .scroll-btn-1 {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  .scroll-btn-2 {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+/* Estilo base del botón */
+.jump-button {
+  font-size: 16px;
+  font-weight: bold;
+  color: white !important;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  animation: jump 0.5s ease 5;
+  background: none;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.jump-button:active {
+  transform: translateY(2px);
+  animation: none;
+}
