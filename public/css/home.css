@@ -63,8 +63,12 @@ html {
 .col-12 {
   height: 65vh;
   /*background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .8)), url(/Img/background/back.jpeg);*/
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7)),
-    url("/public/img/background/back.jpeg");
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("/public/img/background/backGroundNova.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   clip-path: polygon(
@@ -180,7 +184,7 @@ html {
 }
 
 .col-12 p {
-  color: var(--primary-color);
+  color: #fff;
 }
 
 .col-11 {
